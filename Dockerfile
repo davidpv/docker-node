@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 MAINTAINER David Perez <davidpv@gmail.com>
 
 RUN mkdir /home/ionic/
-WORKDIR /home/ionic/
+WORKDIR /home/
 
 RUN apt-get -y update && apt-get install -y curl
 
